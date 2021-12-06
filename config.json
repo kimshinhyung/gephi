@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "김신형"
+  },
+  "text": {
+    "more": "\u003cp\u003e\n범LG가의 혈연관계\n\u003c/p\u003e",
+    "intro": "범LG가의 혈연관계를 살펴봄으로써 그들이 누구와 관계를 맺고 있는지 한 눈에 확인할 수 있다.",
+    "title": "범LG가의 혈연관계"
+  },
+  "legend": {
+    "edgeLabel": "범LG가의 혈연관계",
+    "colorLabel": "엣지의 색으로 구분 초록색-부자관계/분홍색-혼인관계",
+    "nodeLabel": "범LG가"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
